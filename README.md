@@ -1,6 +1,9 @@
+
+
+
 # HW3-APIserver
 
-<img src="/home/stanislav/education/UpGolang/User.jpg" alt="User struct">
+![User](https://github.com/Stas-sH/HW3-APIserver/assets/64601990/dd275a58-1171-44e8-bf97-b0974f5aa156)
 
 All users have access to all GET requests.
 Requests PUT, POST, DELETE only for administrators.
@@ -14,7 +17,7 @@ Should be in the HEADER:
 "/users"
 1. getUsers
   Get - "http://127.0.0.1:8000/users"
-  <img src="/home/stanislav/education/UpGolang/getUsers.jpg" alt="getUsers">
+  ![getUsers](https://github.com/Stas-sH/HW3-APIserver/assets/64601990/4e345117-da32-4eac-88bb-56c9076cde3b)
 
 2. addUser
   Post - "http://127.0.0.1:8000/users"
@@ -25,7 +28,7 @@ Should be in the HEADER:
 "/users/user"
 1 getUserById
   Get - "http://127.0.0.1:8000/users/user?id=" + id
-  <img src="/home/stanislav/education/UpGolang/getUserById.png" alt="getUserById">
+  ![getUserById](https://github.com/Stas-sH/HW3-APIserver/assets/64601990/b55040b3-6e49-4234-b57f-4b7c4a7a9c5c)
   
 2 updateUserById
   Put - "http://127.0.0.1:8000/users/user?id=" + id
