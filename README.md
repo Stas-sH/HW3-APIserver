@@ -57,5 +57,5 @@ Should be in the HEADER:
 ## Server configuration
 * in "server" floder - find the file "dbserver.go"
 * in all functions "sql.Open("postgres", "host=127.0.0.1 port=5432 user=stas dbname=testclientserver sslmode=disable password=1234")" - you need to change the data to your own:
-** user = your_user_name
-** password = your_user_password
+1. user = your_user_name
+2. password = your_user_password
