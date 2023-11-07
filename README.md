@@ -1,6 +1,3 @@
-
-
-
 # HW3-APIserver
 
 ![User](https://github.com/Stas-sH/HW3-APIserver/assets/64601990/dd275a58-1171-44e8-bf97-b0974f5aa156)
@@ -36,3 +33,23 @@ Should be in the HEADER:
 
 ### Delete User by id
   Delete - "http://127.0.0.1:8000/users/user?id=" + id
+
+## PostgreSQL
+### Open
+* sudo -i -u postgres
+### Create your user for DB
+* createuser -P username
+### Create DB for user
+* create testclientserver -O username
+### Go to the database
+* psql
+* \c testclientserver
+### Сreating an admins table
+* create table admins ( id serial not null unique, adminname varchar(255) not null, password varchar(255) not null );
+### Add data into the admins table
+* insert into admins (adminname, password) values ('your_name', 'your_password');
+### Сreating an users table
+* create table users ( id serial not null unique, username varchar(255) not null, mail varchar(255) not null, phone varchar(255) not null, password varchar(255) not null );
+### Add data into the users table
+* insert into users (username, mail, phone, password ) values ('Stanislav', 'stas@mail.com', '+380970403381', 'qwerty1');
+* insert into users (username, mail, phone, password ) values ('Amina', 'amina@mail.com', '+123456789', 'qwerty2');
