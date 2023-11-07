@@ -53,3 +53,9 @@ Should be in the HEADER:
 ### Add data into the users table
 * insert into users (username, mail, phone, password ) values ('Stanislav', 'stas@mail.com', '+380970403381', 'qwerty1');
 * insert into users (username, mail, phone, password ) values ('Amina', 'amina@mail.com', '+123456789', 'qwerty2');
+
+## Server configuration
+* in "server" floder - find the file "dbserver.go"
+* in all functions "sql.Open("postgres", "host=127.0.0.1 port=5432 user=stas dbname=testclientserver sslmode=disable password=1234")" - you need to change the data to your own:
+** user = your_user_name
+** password = your_user_password
