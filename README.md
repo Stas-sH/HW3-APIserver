@@ -26,13 +26,13 @@ Should be in the HEADER:
 
 
 ## "/users/user"
-### getUserById
+### Get User by id
   Get - "http://127.0.0.1:8000/users/user?id=" + id
   ![getUserById](https://github.com/Stas-sH/HW3-APIserver/assets/64601990/b55040b3-6e49-4234-b57f-4b7c4a7a9c5c)
   
-### updateUserById
+### Update User by id
   Put - "http://127.0.0.1:8000/users/user?id=" + id
   (The body of the request must contain the User with the changed data)
 
-### deleteUserById
+### Delete User by id
   Delete - "http://127.0.0.1:8000/users/user?id=" + id
