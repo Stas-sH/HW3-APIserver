@@ -15,7 +15,7 @@ Should be in the HEADER:
 
 
 "/users"
-* getUsers
+* Get Users '\n'
   Get - "http://127.0.0.1:8000/users"
   ![getUsers](https://github.com/Stas-sH/HW3-APIserver/assets/64601990/4e345117-da32-4eac-88bb-56c9076cde3b)
 
