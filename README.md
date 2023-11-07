@@ -15,24 +15,24 @@ Should be in the HEADER:
 
 
 "/users"
-1. getUsers
+* getUsers
   Get - "http://127.0.0.1:8000/users"
   ![getUsers](https://github.com/Stas-sH/HW3-APIserver/assets/64601990/4e345117-da32-4eac-88bb-56c9076cde3b)
 
-2. addUser
+* addUser
   Post - "http://127.0.0.1:8000/users"
   (The new User must be sent in the body of the request)
 
 
 
 "/users/user"
-1 getUserById
+* getUserById
   Get - "http://127.0.0.1:8000/users/user?id=" + id
   ![getUserById](https://github.com/Stas-sH/HW3-APIserver/assets/64601990/b55040b3-6e49-4234-b57f-4b7c4a7a9c5c)
   
-2 updateUserById
+* updateUserById
   Put - "http://127.0.0.1:8000/users/user?id=" + id
   (The body of the request must contain the User with the changed data)
 
-3 deleteUserById
+* deleteUserById
   Delete - "http://127.0.0.1:8000/users/user?id=" + id
