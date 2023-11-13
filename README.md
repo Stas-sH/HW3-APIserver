@@ -40,7 +40,7 @@ Should be in the HEADER:
 ### Create your user for DB
 * createuser -P username
 ### Create DB for user
-* create testclientserver -O username
+* createdb testclientserver -O username
 ### Go to the database
 * psql
 * \c testclientserver
